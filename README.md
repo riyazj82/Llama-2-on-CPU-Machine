@@ -1,16 +1,23 @@
 # Llama-2-on-CPU-Machine
 
 How to run?
-Steps 1:
+###Steps 1:
 clone the repository
 
+'''bash
 git clone https://github.com/
-Steps 2:
+'''
+###Steps 2:
 Create a virtual environment
-
+'''bash
 conda create -n cpullama-1 python=3.8 -y
+'''
 conda activate cpullama
+
+'''bash
 pip install -r requirements.txt
+'''
+
 python app.py
 Download the quantize model from the link provided in model folder & keep the model in the model directory:
 
